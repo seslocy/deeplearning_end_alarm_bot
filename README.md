@@ -1,2 +1,11 @@
-# deeplearning_end_alarm_bot
-DiscordBot to notify Discord when deep learning ends 
+# 사용 방법 
+
+
+## 1. 디스코드 봇 토큰 발급
+
+
+## 2. 디스코드 채널 ID 추출 
+
+
+## 실행 결과 
+
