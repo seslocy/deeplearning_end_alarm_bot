@@ -18,7 +18,10 @@ class MyClient(discord.Client):
         await asyncio.sleep(2)  # Change this value to the number of seconds before the bot shuts down
         await self.close()    
 
-intents = discord.Intents.default()
-intents.message_content = True
-client = MyClient(intents=intents)    
-client.run(TOKEN)
+
+if __name__ == "__main__":
+    
+    intents = discord.Intents.default()
+    intents.message_content = True
+    client = MyClient(intents=intents)    
+    client.run(TOKEN)
